@@ -16,10 +16,13 @@ public class Main {
     }
     public static void task2 () {
         System.out.println("Задача2");
-
+        String fullName  = "Ivanov Ivan Ivanovich";
+        System.out.println(fullName.toUpperCase());
     }
     public static void task3 () {
         System.out.println("Задача3");
-
+        String fullName  = "Иванов Семён Семёнович";
+        fullName = fullName.replace("ё", "е");
+        System.out.println(fullName);
     }
 }
